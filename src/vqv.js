@@ -18,14 +18,14 @@
 
 const vqv = (nome, idade) => {
   if (nome === null && idade === null) {
-    return undefined
+    return undefined;
   }
   if (typeof nome !== 'string' && idade !== 'number') {
-    return undefined
+    return undefined;
   } const template = `Oi, meu nome é ${nome}!
 Tenho ${idade} anos,
 trabalho na Trybe e mando muito em programação!
-#VQV!`
+#VQV!`;
 
   return template;
 };
